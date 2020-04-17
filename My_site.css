@@ -1,0 +1,130 @@
+:root
+{ 
+	font-size: 10px;
+}
+
+body
+{
+	font-family: Comic Sans MS;
+}
+.header
+{
+	background-image:url(ss.jpg) ;
+	background-size: cover;
+	display: flex;
+	padding: 6rem;
+	max-width: 98%;
+	color: white;
+	text-align: center;
+	font-size: 3rem;
+	border-radius: 25px;
+
+}
+
+.header .sub-header
+{
+	color: white;
+	display: flex;
+	padding: 6rem;
+	width: 100%;
+	text-align: center;
+
+}
+
+.navbar
+{
+   display: flex;
+   background-color: #333;
+   width: 100%;
+   border-radius: 25px;
+}
+
+.navbar a{
+	color: white;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size :1.5rem;
+	width: 100%;
+}
+
+.navbar a:hover{
+	color: black;
+	background-color: #ddd;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side
+{
+	flex:30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+.image
+{
+	margin:.2rem;
+}
+
+.para
+{
+  font-size: 1.5rem;
+  font-family: Comic Sans MS;
+  display: flex;
+  color:  #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container
+{
+	display: inline-flex;
+	flex-wrap: wrap; 
+	background-color: #333;
+	margin: 1rem;
+	padding:1rem;
+	color: white;
+	font-size: 2.5rem;
+	flex-direction: column;
+	border-radius: 25px;
+}
+
+.container a
+{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+
+}
+.container a:hover
+{
+	color: black;
+	background-color:  #ddd;
+}
+.container1
+{
+	display: flex;
+	flex-wrap: wrap; 
+	background-color: #333;
+	margin: 1.7rem;
+	padding: 1.7rem;
+	color: white;
+	font-size: 2.5rem;
+	flex-direction: column;
+	border-radius: 25px;
+}
+.container1 a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.container1	 a:hover
+{
+	color: black;
+	background-color:  #ddd;
+}
