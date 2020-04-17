@@ -23,10 +23,9 @@
 }
 
 .row{
-	display: inline-flex;
-	
+	display: flex;
 	flex-wrap: wrap;
-	flex-direction: column;
+	flex-direction: column; 
 	margin-top:  1rem;
 	padding: 1rem;
 	height: 50rem;
@@ -36,9 +35,10 @@
 
 .img
 {
+	
 	display: inline-flex;
 	flex-flow: row wrap;
-	margin: 1rem;
+	margin: 0 1rem;
 	flex-direction: row;
 	width: 300px;
 	height: 300px;
@@ -51,8 +51,8 @@
 	display: flex;
 	flex-wrap: wrap; 
 	background-color: #333;
-	margin-top: 40rem;
-	margin-left: 25rem;
+	/* margin-top: 38rem; */
+	margin-left: 0rem;
 	padding: 1.7rem;
 	color: white;
 	font-size: 2.5rem;
